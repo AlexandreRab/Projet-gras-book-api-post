@@ -1,0 +1,49 @@
+{
+  "name": "post-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.ts",
+  "dependencies": {
+    "@hapi/hapi": "^18.4.0",
+    "@hapi/inert": "^5.2.2",
+    "@hapi/joi": "15.1.1",
+    "@hapi/vision": "^5.5.4",
+    "@types/hapi__hapi": "^18.2.6",
+    "@types/node": "^12.11.5",
+    "aws-sdk": "^2.580.0",
+    "dotenv": "^8.2.0",
+    "eslint": "^6.5.1",
+    "hapi-auth-keycloak": "^4.3.3",
+    "hapi-swagger": "^10.2.0",
+    "jest": "^24.9.0",
+    "lodash": "^4.17.15",
+    "node-typescript-compiler": "^2.0.0",
+    "nodemon": "^1.19.4",
+    "pg": "^7.12.1",
+    "typeorm": "^0.2.20"
+  },
+  "devDependencies": {
+    "@types/jest": "^24.0.23",
+    "ts-jest": "^24.2.0",
+    "ts-node": "^8.4.1",
+    "tslint": "^5.20.1",
+    "typescript": "^3.7.2"
+  },
+  "scripts": {
+    "test": "jest",
+    "dev": "nodemon -r ./node_modules/dotenv/config --exec ./node_modules/.bin/ts-node ./src/server.ts",
+    "build": "tsc",
+    "lint": "tslint -c tslint.json '**.ts'",
+    "start": "node ./dist/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/projet-gras-book/post-api.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/projet-gras-book/post-api/issues"
+  },
+  "homepage": "https://gitlab.com/projet-gras-book/post-api#readme"
+}
