@@ -1,15 +1,10 @@
-[![build status](https://gitlab.com/projet-gras-book/post-api/badges/master/build.svg)]() [![VERSION](https://img.shields.io/static/v1?label=version&message=1.0.0&color=blue)]()
+[![VERSION](https://img.shields.io/static/v1?label=version&message=1.0.0&color=blue)]()
 
 Documentation : http://0.0.0.0:8888/documentation#/
 
 **Project Gras-Book**
 
-- Recreating a facebook-like app. Seperated in micro-services with a service for each part :
-  - Posts API ((here))
-  - Messaging API (https://gitlab.com/projet-gras-book/message-api)
-  - User API (https://gitlab.com/projet-gras-book/user-api)
-  - Reaction API (https://gitlab.com/projet-gras-book/api-reaction)
-  - Gras-Book UI (https://gitlab.com/projet-gras-book/gras-book-ui)
+Project realized their of my curriculum at the EPSI. Part of a project to create a social network
 
 ###Env Example :
 
